@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nacho_Opera", "Nacho_Opera.csproj", "{6C93C849-4931-4F40-8CFF-512D3EF056BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C93C849-4931-4F40-8CFF-512D3EF056BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C93C849-4931-4F40-8CFF-512D3EF056BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C93C849-4931-4F40-8CFF-512D3EF056BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C93C849-4931-4F40-8CFF-512D3EF056BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6BA139C-D47C-4E73-976B-9A104ADFF654}
+	EndGlobalSection
+EndGlobal
