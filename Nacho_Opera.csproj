@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Multiplicacion\Multiplicacion.csproj">
+      <Project>{e982770d-dfd8-42f6-8496-7bf55235e433}</Project>
+      <Name>Multiplicacion</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

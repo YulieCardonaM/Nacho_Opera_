@@ -42,6 +42,7 @@
             this.lblRespuestaResta = new System.Windows.Forms.Label();
             this.lblRespuestaMulti = new System.Windows.Forms.Label();
             this.lblRespuestaDivision = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNumero1
@@ -98,6 +99,7 @@
             this.btnOperaciones.TabIndex = 5;
             this.btnOperaciones.Text = "REALIZAR OPERACIONES";
             this.btnOperaciones.UseVisualStyleBackColor = false;
+            this.btnOperaciones.Click += new System.EventHandler(this.btnOperaciones_Click);
             // 
             // lblSuma
             // 
@@ -171,11 +173,23 @@
             this.lblRespuestaDivision.Size = new System.Drawing.Size(0, 13);
             this.lblRespuestaDivision.TabIndex = 13;
             // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnLimpiar.Location = new System.Drawing.Point(447, 367);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(79, 32);
+            this.btnLimpiar.TabIndex = 14;
+            this.btnLimpiar.Text = "LIMPIAR";
+            this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(601, 439);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lblRespuestaDivision);
             this.Controls.Add(this.lblRespuestaMulti);
             this.Controls.Add(this.lblRespuestaResta);
@@ -213,6 +227,7 @@
         private System.Windows.Forms.Label lblRespuestaResta;
         private System.Windows.Forms.Label lblRespuestaMulti;
         private System.Windows.Forms.Label lblRespuestaDivision;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
 
