@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Multiplicacion;
+using Suma;
 
 namespace Nacho_Opera
 {
@@ -26,16 +27,21 @@ namespace Nacho_Opera
             lblMultiplicacion.Visible = true;
             lblDivision.Visible = true;
 
+            //Crear instancia de la clase Suma
+            Suma.Class1 suma = new Suma.Class1();
+
             //Crear instancia de la clase Multiplicacion
             Multiplicacion.Class1 multiplicacion = new Multiplicacion.Class1();
 
             if (int.TryParse(txtNumero1.Text, out int Numero1) && int.TryParse(txtNumero2.Text, out int Numero2))
             {
-                // Llamar al método RealizarMultiplicacion 
-                int resultado = multiplicacion.RealizarMultiplicacion(Numero1, Numero2);
+                // Llamar a cada uno de los metodos para realizar las operaciones
+                int resultado = suma.RealizarSuma(Numero1, Numero2);
+                int resultado2 = multiplicacion.RealizarMultiplicacion(Numero1, Numero2);
 
-                // Mostrar resultado
-                lblRespuestaMulti.Text = resultado.ToString();
+                // Mostrar resultadoS
+                lblRespuestaSuma.Text = resultado.ToString();
+                lblRespuestaMulti.Text = resultado2.ToString();
             }
         }
 
