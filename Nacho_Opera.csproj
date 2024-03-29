@@ -84,6 +84,10 @@
       <Project>{e982770d-dfd8-42f6-8496-7bf55235e433}</Project>
       <Name>Multiplicacion</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Resta\Resta.csproj">
+      <Project>{68cc8ab8-c9cb-410d-8977-4acd17d354e6}</Project>
+      <Name>Resta</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Suma\Suma.csproj">
       <Project>{6c21cd58-8784-43e1-b8cf-4b969912c22e}</Project>
       <Name>Suma</Name>
