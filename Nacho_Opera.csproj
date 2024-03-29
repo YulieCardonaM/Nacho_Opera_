@@ -80,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Division\Division.csproj">
+      <Project>{e5aeae80-225d-4954-afc5-eeafbf59760b}</Project>
+      <Name>Division</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Multiplicacion\Multiplicacion.csproj">
       <Project>{e982770d-dfd8-42f6-8496-7bf55235e433}</Project>
       <Name>Multiplicacion</Name>
